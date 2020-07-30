@@ -111,10 +111,13 @@ header { padding-bottom: 100px; }
     left: 2.4vw;
 }
 
+/* --------------- About me ------------------ */
+#about-me .col-md-6 p { padding-top: 20px; }
+
 
 /* --------------- Skills ------------------ */
-
 .skill-card {
+    height: auto;
     width: 100%;
     padding: 55px 40px 50px 55px;
     box-shadow: 0px 0px 3px 3px whitesmoke;
@@ -133,40 +136,12 @@ header { padding-bottom: 100px; }
 }
 
 .skill-card h4 { margin: 0; }
-.skill-card p { width: 80%; }
-
-
-/*---------------- Skills Progress ------------------------*/
-
-.progress {
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    font-size: 0.90rem;
-    background-color: #4d4d4d;
-    border-radius: 1rem;
-    color: #ffff00;
+.skill-card p { 
+    width: 80%; 
+    padding-bottom: 20px;
 }
 
-.progress-bar-striped {
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, #0d0d0d 75%, transparent 75%, transparent);
-    background-size: 1rem 1rem;
-}
-
-.progress-bar-animated {
-    animation: progress-bar-stripes 1s linear infinite;
-}
-
-@keyframes progress-bar-stripes {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: 1rem 0;
-    }
-}
-
+.ability ul li { padding-bottom: 15px; }
 /* --------------- Projects ------------------ */
 
 .project-card {
@@ -219,13 +194,51 @@ footer i:hover { opacity: 0.3; }
 
 /* --------------- Responsiveness ------------------ */
 
-@media (max-width: 1250px) {
+@media(max-width: 2570px){
+    .skill-card ul li { font-size: 1vw; }    
+    .skill-header { font-size: 2vw; }
+    
+    i a { 
+        font-size: 2.0vw;
+        padding-left: 100px;
+    }
 
-    h1 { font-size: 3vh; }
-    h3 { font-size: 2vh; }
+    .work {
+        position: relative;
+        bottom: 40px;
+    }
+
+    ul li a { font-size: 4vh; }
+    h4 {
+        font-size: 4vh !important;
+        line-height: 4vh;
+    }
+}
+
+@media (max-width: 1460px){    
+    .work {
+        position: relative;
+        bottom: 10px;
+    }
+
+    #projects p { font-size: 0.9vw; }
+    
+    h3 a { font-size: 4vh; }   
+    ul li a { font-size: 4vh; }
+
+    i a { 
+        font-size: 2.0vw;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    h1 { font-size: 6vh; }
+    h3 { font-size: 4vh; }
 
     h4 {
-        font-size: 2vh;
+        font-size: 3vh;
         line-height: 4vh;
     }
 
@@ -249,48 +262,49 @@ footer i:hover { opacity: 0.3; }
     .project-card h4 {  margin: 0;      }
     .project-card p  {  width: 60%;     }
     .project-card a  {  font-size: 3vw; }
-
+    
+    .skill-card ul li { font-size: 1vw; }
+    
+    .work {
+        position: relative;
+        bottom: 30px;
+    }
 }
 
-@media (max-width: 1200px){
-
-    .project-card h3 a { font-size: 1.5vw;}
-
-}
-
-@media (min-width: 768px) {
-
-    .container { max-width: 100%; }
-
-}
-
-@media (max-width: 760px){
-
+@media (max-width: 770px){
     .project-card h3 a { font-size: 3.5vw; }
     ul li              { font-size: 2.6vw; }
 
     .skill-card h4 {
-        font-size: 3.5vw;
+        font-size: 2vw;
         line-height: 4vh;
     }
 
+    .work {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .project-card h3 a { font-size: 2vw; }
+    .project-card p { font-size: 1.5vw !important; }
 }
+
+@media(min-width: 770px){ .container { max-width: 100%; } }
 
 @media (max-width: 500px) {
 
     h1 { font-size: 4vh; }
     h3 { font-size: 3.5vh; }
-
     h4 {
         font-size: 2vh;
         line-height: 4vh;
     }
 
-    p                  { font-size: 1.6vh;  }
+    p                  { font-size: 2.6vh;  }
     footer i           { font-size: 5vh;    }
     ul li              { font-size: 4.2vw;  }
     .project-card h3 a { font-size: 7.5vw;  }
-    
+
     .project-card {
         width: 100%;
         padding: 55px 40px 50px 55px;
@@ -304,7 +318,25 @@ footer i:hover { opacity: 0.3; }
     }
 
     .project-card h4 {  margin: 0;      }
-    .project-card p  {  width: 60%;     }
+    .project-card p  {  
+        width: 60%;     
+        font-size: 2vw !important;
+    }
     .project-card a  {  font-size: 6vw; }
 
+    .skill-header { font-size: 4vw; }
+    .skill-card ul li { font-size: 2vw; }
+    
+    .additional-info { font-size: 2.5vw; }
+}
+
+@media(max-width: 330px){
+    h4 { font-size: 3vh !important; }
+
+    .skill-card ul li { font-size: 3vw; }
+    
+    .project-card p  {  
+        width: 60%;     
+        font-size: 3vw !important;
+    }
 }
