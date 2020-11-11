@@ -358,12 +358,12 @@ footer i:hover { opacity: 0.3; }
 }
 
 @media(max-width: 330px){
-    h4 { font-size: 3vh !important; }
+    h4 { font-size: 3vh; }
 
     .skill-card ul li { font-size: 3vw; }
     
     .project-card p  {  
         width: 60%;     
-        font-size: 3vw !important;
+        font-size: 3vw;
     }
 }
