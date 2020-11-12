@@ -170,7 +170,14 @@ header { padding-bottom: 100px; }
 .project-card h3 a        { color: wheat;   }
 .project-card h3 a:hover  { color: #66ff66; }
 
-.project-card p i a       { color: wheat;   }
+.info .additional-info,
+.project-card p i a { 
+    color: wheat;   
+    text-decoration: underline;
+    text-decoration-color: #66ff66;
+}
+
+.info .additional-info:hover,
 .project-card p i a:hover { color: #66ff66; }
 
 .info                     { color: wheat;   }
