@@ -313,12 +313,16 @@ footer i:hover { opacity: 0.3; }
     }
 
     .project-card h3 a { font-size: 2vw; }
-    .project-card p { font-size: 1.5vw !important; }
+    .project-card p { font-size: 1.5vw; }
+    .additional-info { font-size: 2.0vw; }
 }
 
 @media(min-width: 770px){ .container { max-width: 100%; } }
 
 @media (max-width: 500px) {
+
+    .logo { width: 10vh; }
+    .me-photo { width: 50vh; }
 
     h1 { font-size: 4vh; }
     h3 { font-size: 3.5vh; }
@@ -347,14 +351,14 @@ footer i:hover { opacity: 0.3; }
     .project-card h4 {  margin: 0;      }
     .project-card p  {  
         width: 60%;     
-        font-size: 2.6vw !important;
+        font-size: 3.2vw;
     }
     .project-card a  {  font-size: 6vw; }
 
     .skill-header { font-size: 4vw; }
     .skill-card ul li { font-size: 2.5vw; }
     
-    .additional-info { font-size: 2.5vw; }
+    .additional-info { font-size: 4.2vw; }
 }
 
 @media(max-width: 330px){
