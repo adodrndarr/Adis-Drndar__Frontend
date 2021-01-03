@@ -206,6 +206,8 @@ header { padding-bottom: 100px; }
     color: #ffa500;
     cursor: pointer;
 }
+
+.timeline-header:hover{ opacity: 0.5; }
   
 .timeline-content {
     padding: 20px 30px;
