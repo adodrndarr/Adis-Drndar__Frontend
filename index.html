@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!---------------------- Meta Tags ----------------------------->
     <meta charset="UTF-8">
     <meta name="description"
-        content="Hi, my name is Adis, a web developer mostly interested in Backend development (C#, ASP.NET/ASP.NET core etc..). I would love to have a conversation about the things that together we could do!">
+          content="Hi, my name is Adis, a web developer mostly interested in Backend development (C#, ASP.NET/ASP.NET core etc..). 
+                   I would love to have a conversation about the things that we could accomplish together!"
+    >
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -24,49 +25,45 @@
     <title>Adis Drndar</title>
 </head>
 
-
 <body>
     <header>
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center">
-                <div class="col-md-2">
-                    <a href="#about-me"><img class="img-fluid logo" src="assets/icons/logo.svg"></a>
-                </div>
-                <div class="col-md-10">
-                    <nav>
-                        <ul class="main-navigation">
-                            <li><a href="#about-me">About me</a></li>
-                            <li><a href="#skills"> Skills</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact"> Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="#about-me"><img class="img-fluid logo" src="assets/icons/logo.svg"></a>
             </div>
+            <div class="nav__container">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#skills"> Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-            <div class="d-flex flex-wrap align-items-center">
-                <div class="col-md-8 introduction">
-                    <h3>Adis Drndar </h3>
-                    <h3>Beginner .NET Full Stack &nbsp; Web Developer</h3>
-                </div>
-                <div class="col-md-4">
-                    <img class="me-photo" src="assets/images/me.jpeg" alt="Adis Drndar (a photo of me!)"
-                        title="Yeah, thats me!">
-                </div>
+        <div class="personal-info__container">
+            <div class="personal__info">
+                <h3>Adis Drndar </h3>
+                <h3>Junior &nbsp; Full Stack .NET Developer</h3>
+            </div>
+            <div class="personal-img__container">
+                <img 
+                    class="me-photo" 
+                    src="assets/images/me.jpeg" 
+                    alt="Adis Drndar (a photo of me!)" 
+                    title="Yeah, thats me!"
+                >
             </div>
         </div>
     </header> <!--------------- End Header ---------------->
 
-
     <section id="about-me">
-        <div class="container">
             <div class="bg-gray box-shadow">
-                <div class="d-flex flex-wrap align-items-center">
-                    <div class="col-md-6 text-center">
-                        <h1>About me</h1>
-                    </div>
-
-                    <div class="col-md-6">
+                <div class="about-me__container">
+                    <h1>About me</h1>
+                    <div class="about-me__content col-md-6">
                         <p>
                             Since childhood I wondered how technology made it possible
                             to display text, images and colors on our computer screens but most important
@@ -80,321 +77,452 @@
                         </p>
 
                         <p>
-                            Even though I was interested to dive into the digital world, after a while I finally
-                            got the chance and now over a year I've been actively coding, researching,
-                            learning & applying new interesting concepts within the web development scope.
+                            Currently I'm working on a project as Full Stack .NET developer mostly using Microsoft
+                            technology stack. <br/>
+                            Actively coding, researching, learning &
+                            applying new interesting concepts within the web development scope.
                         </p>
                         </p>
                     </div>
 
                 </div>
             </div>
-        </div>
     </section> <!--------------- End About-me Section ---------------->
 
-
-    <section class="experience-timeline">
-        <div class="experience-timeline_container left">
+    <section id="experience-timeline">
+        <div class="experience-timeline__container left">
             <a href="https://www.sedc.mk/academy/academy-for-programing/web-developer/" target="_blank">
                 <div class="timeline-header">
                     <h2>2019-2020, Education</h2>
                     <p class="timeline-content">
-                        Seavus Education & Development Center, Academy for Web Development
+                        Seavus Education & Development Center, Academy for <br /> Web Development
                     </p>
                 </div>
             </a>
         </div>
 
-        <div class="experience-timeline_container right">
+        <div class="experience-timeline__container right">
             <a href="https://www.seavus.com" target="_blank">
                 <div class="timeline-header">
-                    <h2>2020-Present time, Work</h2>
+                    <h2>2020-Present, Work</h2>
                     <p class="timeline-content">
-                        Seavus Group, division Microsoft Technologies - Full Stack .NET Web Developer
+                        Seavus Group, division Microsoft Technologies - <br /> Full Stack .NET <br /> Web Developer
                     </p>
                 </div>
             </a>
         </div>
-    </section>
-
+    </section> <!--------------- End Timeline ---------------->
 
     <section id="skills">
         <div class="container">
             <div class="bg-dark-gray box-shadow">
                 <h1 class="text-center">Skills</h1>
-                <div class="d-flex flex-wrap align-items-center">
-
-                    <div class="col-md-5 offset-md-1">
-                        <div class="skill-card work">
-                            <h4 class="text-center">Working and collaborating in a team</h4>
-                            <p>Comfortable communicating and working with a group of people on and off site,
-                                continuously striving to improve my skills and communication for the best of the team.
-                            </p>
-                        </div>
-                        <div class="skill-card">
-                            <h4 class="text-center">Building end-to-end solutions</h4>
-                            <p>I have over a year of experience in building applications and services from start to
-                                finish using <br /> ASP.NET/ ASP.NET core, C#,
-                                SQL, JavaScript, CSS, HTML and multitude of libraries and frameworks such as Bootstrap
-                                and JQuery.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-5">
-                        <div class="skill-card">
-                            <h4 class="text-center">Adapting quickly to new technologies</h4>
-                            <p>Ability to learn new technologies and practices by planning & researching.
-                                <br /><br />Actively applying the freshly learned stuff & always seeking to improve &
-                                finish the task with the most efficient & effective way.
-                            </p>
-                        </div>
-                        <div class="skill-card ability">
-                            <h4 class="text-center">Additional abilities & skills</h4>
-                            <ul>
-                                <li>Ability to work with databases.</li>
-                                <li>Ability to think creatively & outside the box.</li>
-                                <li>Writing readable, reusable & scalable code.
-                                <li>Knowledge of modern OOP conventions (SOLID, KISS, DRY, YAGNI).</li>
-                                <li>Always striving to improve and increase the quality of the work.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="skill-card text-center">
-                            <span class="skill-header">Frontend Skills</span>
-                            <br /><br />
-                            <ul>
-                                <li class="text-left">HTML5</li><br />
-                                <li class="text-left">CSS3
-                                    <ul>
-                                        <li class="text-left">Bootstrap 4</li>
-                                        <li class="text-left">SCSS</li>
-                                    </ul>
-                                </li><br />
-
-                                <li class="text-left">Javascript
-                                    <ul>
-                                        <li class="text-left">jQuery</li>
-                                        <li class="text-left">Typescript</li>
-                                        <li class="text-left">Angular</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="skill-card text-center">
-                            <span class="skill-header">Backend Skills</span>
-                            <br /><br />
-                            <ul>
-                                <li class="text-left">C#
-                                    <ul>
-                                        <li class="text-left">ASP.NET Core</li>
-                                        <li class="text-left">ASP.NET MVC</li>
-                                        <li class="text-left">ASP.NET Web API</li>
-                                    </ul>
-                                </li><br />
-
-                                <li class="text-left">SQL
-                                    <ul>
-                                        <li class="text-left">MS SQL</li>
-                                        <li class="text-left">T-SQL</li>
-                                    </ul>
-                                </li><br />
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12 offset-md-3 offset-lg-7 offset-xl-8 col-offset-1">
-                            <div class="skill-card">
-                                <h4 class="text-center">Additional working experience with:</h4>
-                                <br /><br />
+                <div class="skills__container">
+                    <div class="skill-card">
+                        <h4>Working and collaborating in a team</h4>
+                        <ul>
+                            <li>
+                                <span class="text-yellow underline-green">Comfortable working in a team</span>
                                 <ul>
-                                    <li class="text-left">Github</li><br />
-                                    <li class="text-left">Visual Studio</li><br />
-                                    <li class="text-left">Microsoft SQL Server Management Studio</li><br />
-                                    <li class="text-left">Visual Studio Code</li><br />
-                                    <li class="text-left">Postman</li><br />
-                                    <li class="text-left">Entity Framework, Dapper & ADO.NET</li><br />
-                                    <li class="text-left">Swagger, Automapper, Nlog</li><br />
-                                    <li class="text-left">Git in general</li><br />
+                                    <li>I worked in multiple teams with different people.</li>
                                 </ul>
-                            </div>
-                        </div>
+                            </li>
+                            <li>
+                                <span class="text-yellow underline-green">Comfortable working with a partner</span>
+                                <ul>
+                                    <li>Had a nice experience during work as pair programming.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="text-yellow underline-green">Comfortable working by myself</span>
+                                <ul>
+                                    <li>Working alone as a single unit, but together as a whole makes a great team.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
 
+                    <div class="skill-card">
+                        <h4>Adapting quickly to new technologies</h4>
+                        <ul>
+                            <li>
+                                <span class="text-yellow underline-green">Ability to learn new technologies</span>
+                                <ul>
+                                    <li>By planning and researching I tend to apply freshly learned stuff and seek
+                                        to improve.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="text-yellow underline-green">Problem solving skills</span>
+                                <ul>
+                                    <li>I see complex problems as multiple stacked simple problems.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="text-yellow underline-green">Effectiveness and Efficiency</span>
+                                <ul>
+                                    <li>Resolving issues going step by step, in an algorithmic and organized way.</li>
+                                    <li>Instead of lifting 200kg at once, I tend to lift/transport 5kg every 5 mins,
+                                        to achieve the same goal.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Building end-to-end solutions</h4>
+                        <ul>
+                            <li>
+                                <span class="text-yellow underline-green">I have experience in building applications and services</span>
+                                <ul>
+                                    <li>On my github repo there are more than 10 projects during which I gathered
+                                        experience.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="text-yellow underline-green">Frontend experience</span>
+                                <ul>
+                                    <li>Made multiple applications using HTML, CSS/SCSS, Javascript/Typescript and
+                                        Angular.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="text-yellow underline-green">Backend experience</span>
+                                <ul>
+                                    <li>Built multiple applications using C#, ASP.NET Core, .NET Core Web API following
+                                        N-Tier and Clean Architecture.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Additional abilities & skills</h4>
+                        <ul>
+                            <li>Ability to work with databases.</li>
+                            <li>Ability to think creatively & outside the box.</li>
+                            <li>Writing readable, reusable & scalable code.
+                            <li>Knowledge of modern OOP conventions (SOLID, KISS, DRY, YAGNI).</li>
+                            <li>Always striving to improve and increase the quality of the work.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Frontend Skills</h4>
+                        <ul>
+                            <li class="text-left"><span class="text-yellow">HTML5</span></li>
+                            <li class="text-left"><span class="text-yellow">CSS3</span>
+                                <ul>
+                                    <li class="text-left">Bootstrap 4</li>
+                                    <li class="text-left">SCSS</li>
+                                </ul>
+                            </li>
+
+                            <li class="text-left"><span class="text-yellow">Javascript</span>
+                                <ul>
+                                    <li class="text-left">jQuery</li>
+                                    <li class="text-left">Typescript</li>
+                                    <li class="text-left">Angular</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Backend Skills</h4>
+                        <ul>
+                            <li class="text-left">
+                                <span class="text-yellow">C#</span>
+                                <ul>
+                                    <li class="text-left">ASP.NET Core</li>
+                                    <li class="text-left">ASP.NET MVC</li>
+                                    <li class="text-left">.NET Core API</li>
+                                </ul>
+                            </li>
+
+                            <li class="text-left">
+                                <span class="text-yellow">SQL</span>
+                                <ul>
+                                    <li class="text-left">MS SQL</li>
+                                    <li class="text-left">T-SQL</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Additional working experience with:</h4>
+                        <ul>
+                            <li class="text-left">Github</li>
+                            <li class="text-left">Visual Studio</li>
+                            <li class="text-left">Microsoft SQL Server Management Studio</li>
+                            <li class="text-left">Visual Studio Code</li>
+                            <li class="text-left">Postman</li>
+                            <li class="text-left">Entity Framework, Dapper & ADO.NET</li>
+                            <li class="text-left">Swagger, Automapper, Nlog</li>
+                            <li class="text-left">Git in general</li>
+                            <li class="text-left">Unit testing using nUnit and xUnit</li>
+                            <li class="text-left">CQRS pattern with MediatR</li>
+                            <li class="text-left">Clean(Onion) Architecture, N-Tier Architecture</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section> <!--------------- End Skills Section ---------------->
 
-
     <section id="projects">
         <div class="container">
             <div class="bg-gray box-shadow">
                 <h1 class="text-center">Projects</h1>
-                <div class="d-flex flex-wrap align-items-center">
-                    <div class="col-md-4">
-                        <div class="project-card">
-                            <h3 class="text-center"><a href="https://adodrndarr.github.io/WorldInfoApp/"
-                                    target="_blank">World Info (Frontend)</a></h3>
-                            <p>
-                                Displays different information about multiple countries, there are features that allow
-                                the user to search for a different country.<br /><br />
+                <div class="projects__container">
 
-                                <span class="used-technology">Technology used:</span><br /> HTML5, CSS3, Bootstrap and
-                                Javascript.<br /><br />
-
-                                <i><a href="https://adodrndarr.github.io/WorldInfoApp/" target="_blank">See
-                                        project.</a></i>
+                    <div class="project-card">
+                        <h3 class="text-center">
+                            <a 
+                                class="text-yellow"
+                                href="https://magic-the-gathering-f43a2.web.app/home"
+                                target="_blank"
+                            >
+                                Magic the Gathering <br />(Frontend - SPA)
+                            </a>
+                        </h3>
+                        <div class="project-card__content">
+                            <p>An angular application which retrieves cards and has the following functionalities:</p>
+                            <ul>
+                                <li>Searching a specific card by name or text.</li>
+                                <li>Filtering a card by color or type </li>
+                                <li>Sorting in a specific order</li>
+                            </ul>
+                            
+                            <span class="used-technology">Technology used:</span>
+                            <p class="margin-0">HTML5, CSS3, SCSS, Typescript and Angular.</p>
+                            <p class="text-center">
+                                <i>
+                                    <a 
+                                        href="https://magic-the-gathering-f43a2.web.app/home" 
+                                        target="_blank"
+                                    >
+                                        See demo
+                                    </a>
+                                </i>
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="project-card">
-                            <h3 class="text-center"><a href="https://adodrndarr.github.io/weatherAlertAppx/"
-                                    target="_blank">Weather Alert (Frontend)</a></h3>
-                            <p>
-                                The user can
-                                search and see the temperature for a different city,
-                                sort by temperature and see the hourly temperature.<br /><br />
+                    <div class="project-card">
+                            <h3 class="text-center">
+                                <a 
+                                    class="text-yellow"
+                                    href="https://recipe-bok-44b1d.web.app/auth"
+                                    target="_blank"
+                                >
+                                    Recipes <br />(Frontend - SPA)
+                                </a>
+                            </h3>
+                            <div class="project-card__content">
+                                <p>A small Angular application for organizing and browsing through great recipes. </p>
+                                <p>There are features that allow the user to create and manage recipes.</p>
 
-                                <span class="used-technology">Technology used:</span><br /> HTML5, CSS3, Bootstrap and
-                                Javascript.<br /><br />
-
-                                <i><a href="https://adodrndarr.github.io/weatherAlertAppx/" target="_blank">
-                                        See project.</a></i>
-                            </p>
-                        </div>
+                                <span class="used-technology">Technology used:</span>
+                                <p class="margin-0"> HTML5, SCSS, Bootstrap, Typescript and Angular.</p>
+                                <p class="text-center">
+                                    <i>
+                                        <a 
+                                            href="https://recipe-bok-44b1d.web.app/auth" 
+                                            target="_blank"
+                                        >
+                                            See demo
+                                        </a>
+                                    </i>
+                                </p>
+                            </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="project-card">
-                            <h3 class="text-center"><a href="https://adodrndarr.github.io/FreelancerResponsiveWebPagex/"
-                                    target="_blank">"Freelancer" webpage (Frontend)</a></h3>
-                            <p>
-                                A simple starting web page project in which I continued
-                                to learn and implement the learned skills...<br /><br />
+                    <div class="project-card">
+                            <h3 class="text-center">
+                                <a 
+                                    class="text-yellow"
+                                    href="https://adodrndarr.github.io/weatherAlertAppx/"
+                                    target="_blank"
+                                >
+                                    Weather Alert <br />(Frontend)
+                                </a>
+                            </h3>
+                            <div class="project-card__content">
+                                <p>Weather application, the user can:</p>
+                                <ul>
+                                    <li>Search temperature for a different city</li>
+                                    <li>View temperature details for specific city</li>
+                                    <li>Sort weather details by temperature</li>
+                                    <li>See the hourly temperature</li>
+                                </ul>
 
-                                <span class="used-technology">Technology used:</span><br /> HTML5, CSS3 and
-                                Javascript.<br /><br />
-
-                                <i><a href="https://adodrndarr.github.io/FreelancerResponsiveWebPagex/" target="_blank">
-                                        See project.</a></i>
-                            </p>
-                        </div>
+                                <span class="used-technology">Technology used:</span>
+                                <p class="margin-0">HTML5, CSS3, Bootstrap and Javascript.</p>
+                                <p class="text-center">
+                                    <i>
+                                        <a 
+                                            href="https://adodrndarr.github.io/weatherAlertAppx/" 
+                                            target="_blank"
+                                        >
+                                            See demo
+                                        </a>
+                                    </i>
+                                </p>
+                            </div>
                     </div>
 
+                    <div class="project-card">
+                            <h3 class="text-center">
+                                <a 
+                                    class="text-yellow"
+                                    href="https://github.com/adodrndarr/ActivityScheduler"
+                                    target="_blank"
+                                >
+                                    Activity Scheduler <br />(Fullstack)
+                                </a>
+                            </h3>
+                            <div class="project-card__content">
+                                <p>
+                                    Activity Scheduler is an application built with the main goal of providing the user a
+                                    nice and convenient way of scheduling an activity.
+                                </p>
+                                <p>The project was made mainly by using Angular and .NET Core API.</p>
 
-
-                    <div class="col-md-4">
-                        <div class="project-card">
-                            <h3 class="text-center"><a href="https://github.com/adodrndarr/Worldtech"
-                                    target="_blank">World Technology (Backend)</a></h3>
-                            <p>
-                                An ASP.NET MVC project e-commerce like, online store for technology -
-                                different kinds of laptops, computers, gadgets,
-                                user log in options and shopping.<br /><br />
-
-                                <span class="used-technology">Technology used:</span><br /> C#, LINQ, ASP.NET Core, EF,
-                                ASP.NET MVC,
-                                also HTML, CSS and a bit Javascript.<br /><br />
-
-                                <i><a href="https://github.com/adodrndarr/Worldtech" target="_blank">
-                                        See project.</a></i>
-                            </p>
-                        </div>
+                                <span class="used-technology">Technology used:</span>
+                                <p class="margin-0">C#, LINQ, ASP.NET Core, EF, Typescript, Angular</p>
+                                <p class="text-center">
+                                    <i>
+                                        <a 
+                                            href="https://github.com/adodrndarr/ActivityScheduler" 
+                                            target="_blank"
+                                        >
+                                            See project
+                                        </a>
+                                    </i>
+                                </p>
+                            </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="project-card">
-                            <h3 class="text-center"><a href="https://github.com/adodrndarr/AnimalFacts"
-                                    target="_blank">Animal Facts API (Backend)</a></h3>
-                            <p>
-                                A mini ASP.NET Web API project providing some animal facts with basic CRUD
-                                operations.<br /><br />
+                    <div class="project-card">
+                            <h3 class="text-center">
+                                <a 
+                                    class="text-yellow"
+                                    href="https://github.com/adodrndarr/Worldtech"
+                                    target="_blank"
+                                >
+                                    World Technology <br />(Backend)
+                                </a>
+                            </h3>
+                            <div class="project-card__content">
+                                <p>An ASP.NET MVC project e-commerce like, online store for technology.</p>
+                                <p>Different kinds of laptops, computers, gadgets, user log in options and shopping.</p>
 
-                                <span class="used-technology">Technology used:</span><br /> C#, ASP.NET Core, Entity
-                                Framework, LINQ, Swagger<br /><br />
-
-                                <i><a href="https://github.com/adodrndarr/AnimalFacts" target="_blank">
-                                        See project.</a></i>
-                            </p>
-                        </div>
+                                <span class="used-technology">Technology used:</span>
+                                <p class="margin-0">
+                                    C#, LINQ, ASP.NET Core, EF, ASP.NET MVC,
+                                    also HTML, CSS and a bit Javascript.
+                                </p>
+                                <p class="text-center">
+                                    <i>
+                                        <a 
+                                            href="https://github.com/adodrndarr/Worldtech" 
+                                            target="_blank"
+                                        >
+                                            See project
+                                        </a>
+                                    </i>
+                                </p>
+                            </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="project-card">
-                            <h3 class="text-center"><a href="https://github.com/adodrndarr/ActivityOrganizer"
-                                    target="_blank">Activity Organizer (Backend)</a></h3>
-                            <p>
-                                A small ASP.NET MVC project with basic CRUD functionalities,
-                                with an idea to help in organizing different user activities
-                                that users might have during certain period of time.
-                                <br /><br />
+                    <div class="project-card">
+                            <h3 class="text-center">
+                                <a 
+                                    class="text-yellow"
+                                    href="https://github.com/adodrndarr/AnimalFacts"
+                                    target="_blank"
+                                >
+                                    Animal Facts API <br />(Backend)
+                                </a>
+                            </h3>
+                            <div class="project-card__content">
+                                <p>A mini ASP.NET Web API project providing some animal facts with basic CRUD operations.</p>
 
-                                <span class="used-technology">Technology used:</span><br /> ASP.NET MVC, C#, LINQ,
-                                ASP.NET Core, EF,
-                                also a bit of HTML and CSS <br /><br />
-
-                                <i><a href="https://github.com/adodrndarr/ActivityOrganizer" target="_blank">
-                                        See project.</a></i>
-                            </p>
-                        </div>
+                                <span class="used-technology">Technology used:</span>
+                                <p class="margin-0">C#, ASP.NET Core, Entity Framework, LINQ, Swagger</p>
+                                <p class="text-center">
+                                    <i>
+                                        <a 
+                                            href="https://github.com/adodrndarr/AnimalFacts" 
+                                            target="_blank"
+                                        >
+                                            See project
+                                        </a>
+                                    </i>
+                                </p>
+                            </div>
                     </div>
 
                     <div class="col-md-12 text-center">
                         <p>
-                            <span class="additional-info">Additional information & projects on my github account:</span>
-                            <br /><br />
-                            <i><a class="info" href="https://github.com/adodrndarr?tab=projects" target="_blank">
-                                    <span class="additional-info">See info.</span></a></i>
+                            <p>Additional information & projects on my github account:</p>
+                            <i>
+                                <a 
+                                    class="info"
+                                    href="https://github.com/adodrndarr?tab=projects" 
+                                    target="_blank"
+                                >
+                                    See more projects
+                                </a>
+                            </i>
                         </p>
                     </div>
-
                 </div>
             </div>
         </div>
     </section> <!--------------- End Projects Section ---------------->
 
-
     <footer id="contact">
         <div class="bg-black box-shadow">
             <div class="container">
-                <div class="d-flex flex-wrap align-items-center">
-                    <div class="col-md-12">
-                        <h3 class="text-white text-center">Looking forward for an adventurous journey</h3>
-                    </div>
+                <h3 class="text-wheat underline-green text-center">Looking forward for an adventurous journey</h3>
+                
+                <div class="footer__container">
+                    <h3 class="text-wheat">Feel free to contact me:</h3>
+                    <nav class="icons">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/adis-drndar/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto: drndarr@gmail.com" target="_blank">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/adisadodrndar" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/adodrndarr/" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
-                    <div class="col-lg-4 col-md-4">
-                        <h3 class="text-white">Feel free to contact me:</h3>
-                    </div>
-
-                    <div class="col-lg-8 col-md-8 text-left">
-                        <nav>
-                            <ul>
-                                <li><a href="https://github.com/adodrndarr/" target="_blank">
-                                        <i class="fab fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/adis-drndar/" target="_blank">
-                                        <i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="https://www.facebook.com/adisadodrndar" target="_blank">
-                                        <i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="mailto: drndarr@gmail.com" target="_blank">
-                                        <i class="fas fa-envelope"></i></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                </div><br /><br />
             </div>
         </div>
     </footer> <!--------------- End Contact Footer ---------------->
+
+    <div id="arrow-up" title="Go to top">&#8593;</div>
 
     <script src="root/script.js"></script>
 </body>
