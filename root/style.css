@@ -323,6 +323,8 @@ header { padding-bottom: 100px; }
 .info { 
     color: wheat; 
     font-size: 3vh;
+    padding: 0;
+    text-decoration: underline #66ff66;
 }
 
 .info:hover,
@@ -360,7 +362,6 @@ header { padding-bottom: 100px; }
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 70px;
 }
 
 .icons ul {
