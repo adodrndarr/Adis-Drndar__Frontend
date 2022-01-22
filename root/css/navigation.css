@@ -1,0 +1,32 @@
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10vw;
+}
+
+.navigation li { margin: 0 2.5vw; }
+.navigation a:hover { text-decoration: underline; }
+
+.header__container {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.personal__info,
+.header__logo {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.me-photo {
+    width: 30vw;
+    cursor: grab;
+}
+
+.logo { width: 7vw; }
+
+.about-me__container {
+    align-items: center;
+    justify-content: space-evenly;
+}

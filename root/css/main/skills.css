@@ -1,0 +1,33 @@
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-card {
+    height: auto;
+    width: 40%;
+    padding: 55px 40px 50px 55px;
+    box-shadow: 0px 0px 3px 3px whitesmoke;
+    position: relative;
+    
+    min-height: 545px;
+    margin-bottom: 40px;
+    background-color: #404040;
+    color: wheat;
+    cursor: pointer;
+}
+
+.skill-card ul > li { margin-bottom: 20px; }
+
+.skill-card:hover {
+    border: 2px solid #66ff66;
+    box-shadow: none;
+    transition: 0.4s ease-in-out;
+}
+
+.skill-card h4 { 
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center; 
+}
